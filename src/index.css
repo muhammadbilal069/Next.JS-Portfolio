@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  background: #050816;
+  overflow-x: hidden;
+}
+
+body {
+  @apply font-body text-white;
+  -webkit-font-smoothing: antialiased;
+  cursor: default;
+}
+
+h1, h2, h3, h4, h5 {
+  @apply font-display;
+}
+
+::selection {
+  background: #6C63FF;
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6C63FF, #00E5FF);
+  border-radius: 999px;
+}
+
+/* Visible keyboard focus for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #00E5FF;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-card backdrop-blur-xl border border-white/10;
+  }
+
+  .glass-card {
+    @apply glass rounded-2xl shadow-soft;
+  }
+
+  .gradient-text {
+    @apply bg-grad-full bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient-shift;
+  }
+
+  .section-padding {
+    @apply px-6 sm:px-10 lg:px-24 py-24 lg:py-32;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.3em] uppercase text-secondary/80;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center gap-2 rounded-full bg-grad-primary px-7 py-3 font-medium text-white shadow-glow transition-transform duration-300 hover:scale-105 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/20 px-7 py-3 font-medium text-white/90 backdrop-blur-sm transition-all duration-300 hover:border-secondary/60 hover:text-secondary hover:shadow-glow-cyan;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
