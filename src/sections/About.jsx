@@ -20,8 +20,8 @@ function Counter({ stat }) {
 
 const highlights = [
   { icon: FiMapPin, label: 'Based in', value: personal.location },
-  { icon: FiBookOpen, label: 'Education', value: 'BS Computer Science' },
-  { icon: FiTarget, label: 'Currently', value: 'Building accessible, motion-rich UI' },
+  { icon: FiBookOpen, label: 'Education', value: 'Intermediate in Computer Science (ICS)' },
+  { icon: FiTarget, label: 'Currently', value: 'Building Full-Stack Web Applications'},
 ]
 
 export default function About() {
@@ -32,7 +32,7 @@ export default function About() {
         <SectionHeading
           eyebrow="Get to know me"
           title="About Me"
-          subtitle="A quick look at who I am, what I've studied, and where I'm headed next."
+          subtitle="A closer look at my skills, development journey, and passion for building modern web applications."
         />
 
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
@@ -45,9 +45,7 @@ export default function About() {
             className="glass-card p-8"
           >
             <p className="text-base leading-relaxed text-white/85 sm:text-lg">
-              {personal.intro} My goal is to keep building products that are as
-              enjoyable to use as they are reliable — where every interaction
-              feels considered, from layout to load time.
+              {personal.intro} I enjoy solving complex problems, developing efficient backend solutions, and creating seamless user experiences. I'm committed to writing clean, maintainable code, continuously improving my technical skills, and building reliable, scalable web applications that deliver real value to users.
             </p>
 
             <div className="mt-8 flex flex-col gap-4">
@@ -90,8 +88,7 @@ export default function About() {
             >
               <p className="eyebrow mb-3">Goal</p>
               <p className="text-white/85">
-                To keep growing as a full-stack engineer while mentoring others —
-                and to eventually lead a small, high-craft product team.
+                To grow as a Full-Stack Developer by building high-quality web applications, solving real-world problems, and continuously improving my technical skills to deliver reliable and user-focused digital solutions.
               </p>
             </motion.div>
           </div>

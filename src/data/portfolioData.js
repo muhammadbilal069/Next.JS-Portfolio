@@ -11,7 +11,7 @@ export const personal = {
     'Frontend Engineer',
   ],
   intro:
-     "I'm a Full-Stack Developer passionate about building modern, responsive, and user-friendly web applications using React.js, Next.js, Node.js, Express.js, and MongoDB to create functional web experiences with clean design and reliable performance.",
+     "I'm a Full-Stack Developer focused on building modern, responsive, and user-friendly web applications. Using React.js, Next.js, Node.js, Express.js, and MongoDB, I turn ideas into functional digital experiences with clean code, intuitive design, and reliable performance.",
   resumeUrl: '/resume.pdf',
   email: 'hello@arjunmehta.dev',
   phone: '+92 3111300393',
@@ -26,10 +26,10 @@ export const personal = {
 }
 
 export const aboutStats = [
-  { label: 'Projects Completed', value: 48, suffix: '+' },
-  { label: 'Happy Clients', value: 26, suffix: '+' },
-  { label: 'Certificates', value: 12, suffix: '' },
-  { label: 'Years Learning', value: 5, suffix: '+' },
+  { label: 'Projects Completed', value: 15, suffix: '+' },
+  { label: 'Technologies', value: 10, suffix: '+' },
+  { label: 'Certificates', value: 3, suffix: '' },
+  { label: 'Years Learning', value: 2, suffix: '+' },
 ]
 
 export const skills = {
