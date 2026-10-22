@@ -215,7 +215,7 @@ export const certificates = [
 
 export const techStack = [
   'React.js', 'Next.js', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Redux Toolkit', 'Mongoose', 'REST APIs', 'Postman',
-  'Tailwind CSS', 'Git', 'GitHub', 'Figma', 'HTML5', 'CSS3',
+  'Tailwind CSS', 'Git', 'GitHub', 'Figma', 'HTML5', 'CSS3', 'Responsive Design'
 ]
 
 export const navLinks = [
