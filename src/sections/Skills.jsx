@@ -31,7 +31,7 @@ export default function Skills() {
         <SectionHeading
           eyebrow="What I work with"
           title="Skills & Technologies"
-          subtitle="Tools I reach for daily, grouped by where they sit in the stack."
+          subtitle="The technologies and tools I use to build modern, responsive, and reliable web applications."
         />
 
         <div className="grid gap-8 md:grid-cols-3">

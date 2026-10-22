@@ -41,13 +41,15 @@ export const skills = {
     { name: 'Next.js', level: 85 },
     { name: 'Redux Toolkit', level: 80 },
     { name: 'Tailwind CSS', level: 90 },
+    { name: 'Responsive Design', level: 95 },
   ],
   Backend: [
     { name: 'Node.js', level: 85 },
     { name: 'Express.js', level: 83 },
     { name: 'MongoDB', level: 80 },
-    { name: 'REST APIs', level: 90 },
     { name: 'Mongoose', level: 85 },
+    { name: 'REST APIs', level: 90 },
+   
   ],
   Tools: [
     { name: 'Git', level: 90 },
