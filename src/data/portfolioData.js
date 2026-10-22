@@ -37,19 +37,23 @@ export const skills = {
     { name: 'HTML', level: 95 },
     { name: 'CSS', level: 92 },
     { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 93 },
-    { name: 'Redux', level: 82 },
+    { name: 'React.js', level: 93 },
+    { name: 'Next.js', level: 85 },
+    { name: 'Redux Toolkit', level: 80 },
     { name: 'Tailwind CSS', level: 90 },
   ],
   Backend: [
     { name: 'Node.js', level: 85 },
     { name: 'Express.js', level: 83 },
     { name: 'MongoDB', level: 80 },
+    { name: 'REST APIs', level: 90 },
+    { name: 'Mongoose', level: 85 },
   ],
   Tools: [
     { name: 'Git', level: 90 },
     { name: 'GitHub', level: 90 },
     { name: 'VS Code', level: 95 },
+    { name: 'Postman', level: 88 },
     { name: 'Figma', level: 78 },
   ],
 }
@@ -208,7 +212,7 @@ export const certificates = [
 ]
 
 export const techStack = [
-  'React', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Redux',
+  'React.js', 'Next.js', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Redux Toolkit', 'Mongoose', 'REST APIs', 'Postman',
   'Tailwind CSS', 'Git', 'GitHub', 'Figma', 'HTML5', 'CSS3',
 ]
 
