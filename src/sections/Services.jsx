@@ -10,7 +10,7 @@ export default function Services() {
         <SectionHeading
           eyebrow="How I can help"
           title="Services"
-          subtitle="A focused set of things I do well, rather than a long list of everything."
+          subtitle="I build modern web interfaces, reliable backend APIs, and complete web applications tailored to real-world needs."
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

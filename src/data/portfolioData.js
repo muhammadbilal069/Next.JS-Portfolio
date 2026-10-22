@@ -64,25 +64,25 @@ export const services = [
   {
     title: 'Frontend Development',
     description:
-      'Interfaces built with modern JavaScript and semantic HTML, tuned for speed and accessibility on every device.',
+      'Creating clean, interactive, and responsive interfaces using React.js, Next.js, JavaScript, and Tailwind CSS.',
     icon: 'FiCode',
   },
   {
-    title: 'React Development',
+    title: 'Full-Stack Development',
     description:
-      'Component-driven applications with clean state management, reusable hooks, and maintainable architecture.',
+      'Building complete web applications by connecting modern user interfaces with backend services and databases using React.js, Node.js, Express.js, and MongoDB.',
     icon: 'FiLayers',
   },
-  {
-    title: 'Responsive Design',
-    description:
-      'Layouts that adapt fluidly from a 5-inch phone to an ultrawide monitor, without compromising on detail.',
-    icon: 'FiSmartphone',
-  },
+ {
+  title: 'Backend Development',
+  description:
+    'Developing server-side functionality and REST APIs using Node.js and Express.js, with MongoDB and Mongoose for data storage and management.',
+  icon: 'FiServer',
+},
   {
     title: 'UI Implementation',
     description:
-      'Turning Figma files into production-ready interfaces, matching motion, spacing, and detail precisely.',
+      'Turning Figma designs into responsive web interfaces with careful attention to layout, spacing, visual consistency, and detail.',
     icon: 'FiFeather',
   },
 ]
