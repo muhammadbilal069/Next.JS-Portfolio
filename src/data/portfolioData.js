@@ -20,7 +20,7 @@ export const personal = {
   socials: [
     { name: 'GitHub', href: 'https://github.com/your-username', icon: 'FiGithub' },
     { name: 'LinkedIn', href: 'https://linkedin.com/in/your-username', icon: 'FiLinkedin' },
-    { name: 'Email', href: 'mailto:hello@arjunmehta.dev', icon: 'FiMail' },
+    { name: 'Email', href: 'mailto:hello@arjunme', icon: 'FiMail' },
     { name: 'WhatsApp', href: 'https://wa.me/923111300393', icon: 'FaWhatsapp' },
   ],
 }

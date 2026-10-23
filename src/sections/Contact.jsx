@@ -65,9 +65,9 @@ export default function Contact() {
       <GradientBlobs variant="reverse" />
       <div className="relative mx-auto max-w-7xl">
         <SectionHeading
-          eyebrow="Let's build something"
+          eyebrow="LET'S CONNECT"
           title="Contact"
-          subtitle="Have a project in mind, or just want to say hi? My inbox is open."
+          subtitle="Have a project in mind, a job opportunity, or just want to connect? Feel free to reach out."
         />
 
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
