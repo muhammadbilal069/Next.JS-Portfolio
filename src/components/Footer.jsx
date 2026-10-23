@@ -1,5 +1,6 @@
 import { Link as ScrollLink } from 'react-scroll'
 import * as FiIcons from 'react-icons/fi'
+import * as FaIcons from 'react-icons/fa'
 import { navLinks, personal } from '../data/portfolioData'
 
 export default function Footer() {
@@ -31,7 +32,7 @@ export default function Footer() {
 
         <div className="flex gap-4">
           {personal.socials.map((social) => {
-            const Icon = FiIcons[social.icon]
+             const IconComponent = FiIcons[social.icon] || FaIcons[social.icon]
             return (
               <a
                 key={social.name}
@@ -41,7 +42,7 @@ export default function Footer() {
                 aria-label={social.name}
                 className="glass flex h-10 w-10 items-center justify-center rounded-full text-white/70 transition-all hover:-translate-y-1 hover:text-secondary"
               >
-                <Icon />
+                {typeof IconComponent === 'function' ? <IconComponent /> : null}
               </a>
             )
           })}

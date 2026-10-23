@@ -11,17 +11,17 @@ export const personal = {
     'Frontend Engineer',
   ],
   intro:
-     "I'm a Full-Stack Developer focused on building modern, responsive, and user-friendly web applications. Using React.js, Next.js, Node.js, Express.js, and MongoDB, I turn ideas into functional digital experiences with clean code, intuitive design, and reliable performance.",
+    "I'm a Full-Stack Developer focused on building modern, responsive, and user-friendly web applications. Using React.js, Next.js, Node.js, Express.js, and MongoDB, I turn ideas into functional digital experiences with clean code, intuitive design, and reliable performance.",
   resumeUrl: '/resume.pdf',
   email: 'hello@arjunmehta.dev',
   phone: '+92 3111300393',
   location: 'Karachi, Pakistan',
   avatar: null, // add a real image path here, e.g. '/avatar.jpg'
   socials: [
-    { name: 'GitHub', href: 'https://github.com/', icon: 'FiGithub' },
-    { name: 'LinkedIn', href: 'https://linkedin.com/', icon: 'FiLinkedin' },
-    { name: 'Twitter', href: 'https://twitter.com/', icon: 'FiTwitter' },
-    { name: 'Dribbble', href: 'https://dribbble.com/', icon: 'FiDribbble' },
+    { name: 'GitHub', href: 'https://github.com/your-username', icon: 'FiGithub' },
+    { name: 'LinkedIn', href: 'https://linkedin.com/in/your-username', icon: 'FiLinkedin' },
+    { name: 'Email', href: 'mailto:hello@arjunmehta.dev', icon: 'FiMail' },
+    { name: 'WhatsApp', href: 'https://wa.me/923111300393', icon: 'FaWhatsapp' },
   ],
 }
 
@@ -49,7 +49,7 @@ export const skills = {
     { name: 'MongoDB', level: 80 },
     { name: 'Mongoose', level: 85 },
     { name: 'REST APIs', level: 90 },
-   
+
   ],
   Tools: [
     { name: 'Git', level: 90 },
@@ -73,12 +73,12 @@ export const services = [
       'Building complete web applications by connecting modern user interfaces with backend services and databases using React.js, Node.js, Express.js, and MongoDB.',
     icon: 'FiLayers',
   },
- {
-  title: 'Backend Development',
-  description:
-    'Developing server-side functionality and REST APIs using Node.js and Express.js, with MongoDB and Mongoose for data storage and management.',
-  icon: 'FiServer',
-},
+  {
+    title: 'Backend Development',
+    description:
+      'Developing server-side functionality and REST APIs using Node.js and Express.js, with MongoDB and Mongoose for data storage and management.',
+    icon: 'FiServer',
+  },
   {
     title: 'UI Implementation',
     description:

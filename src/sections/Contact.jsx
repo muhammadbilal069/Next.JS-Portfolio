@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiMail, FiPhone, FiMapPin, FiSend, FiCheckCircle } from 'react-icons/fi'
 import * as FiIcons from 'react-icons/fi'
+import * as FaIcons from 'react-icons/fa'
 import SectionHeading from '../components/SectionHeading'
 import GradientBlobs from '../components/GradientBlobs'
 import { personal } from '../data/portfolioData'
@@ -88,7 +89,7 @@ export default function Contact() {
               <p className="mb-4 text-xs uppercase tracking-wide text-muted">Find me elsewhere</p>
               <div className="flex gap-3">
                 {personal.socials.map((social) => {
-                  const Icon = FiIcons[social.icon]
+                 const IconComponent = FiIcons[social.icon] || FaIcons[social.icon]
                   return (
                     <a
                       key={social.name}
@@ -98,7 +99,7 @@ export default function Contact() {
                       aria-label={social.name}
                       className="glass flex h-11 w-11 items-center justify-center rounded-full text-lg transition-all duration-300 hover:-translate-y-1 hover:text-secondary hover:shadow-glow-cyan"
                     >
-                      <Icon />
+                      {typeof IconComponent === 'function' ? <IconComponent /> : null}
                     </a>
                   )
                 })}

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Link as ScrollLink } from 'react-scroll'
 import { FiDownload, FiMail, FiChevronDown } from 'react-icons/fi'
 import * as FiIcons from 'react-icons/fi'
+import * as FaIcons from 'react-icons/fa'
 import ParticlesBackground from '../components/ParticlesBackground'
 import GradientBlobs from '../components/GradientBlobs'
 import { personal } from '../data/portfolioData'
@@ -92,7 +93,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.55 }}
           >
             {personal.socials.map((social) => {
-              const Icon = FiIcons[social.icon]
+              const IconComponent = FiIcons[social.icon] || FaIcons[social.icon]
               return (
                 <a
                   key={social.name}
@@ -102,7 +103,7 @@ export default function Hero() {
                   aria-label={social.name}
                   className="glass flex h-11 w-11 items-center justify-center rounded-full text-lg text-white/80 transition-all duration-300 hover:-translate-y-1 hover:text-secondary hover:shadow-glow-cyan"
                 >
-                  <Icon />
+                  {typeof IconComponent === 'function' ? <IconComponent /> : null}
                 </a>
               )
             })}
