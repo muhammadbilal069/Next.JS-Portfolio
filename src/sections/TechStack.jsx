@@ -10,7 +10,7 @@ export default function TechStack() {
         <SectionHeading
           eyebrow="Always working with"
           title="Tech Stack"
-          subtitle="The tools in my everyday rotation."
+          subtitle="The technologies I use to build modern, responsive, and reliable web applications."
         />
       </div>
 
