@@ -49,7 +49,7 @@ export default function App() {
         <Projects />
         <Education />
         <Achievements />
-        <Testimonials />
+        <Testimonials /> 
         <Certificates />
         <TechStack />
         <Contact />

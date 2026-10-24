@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-muted">
-          &copy; {year} {personal.name}. Built with React, Tailwind CSS, and Framer Motion.
+          &copy; {year} {personal.name}. All rights reserved.
         </p>
       </div>
     </footer>
