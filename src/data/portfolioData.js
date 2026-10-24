@@ -173,36 +173,6 @@ export const education = [
   },
 ]
 
-export const testimonials = [
-  {
-    name: 'Sara Ahmed',
-    position: 'Product Manager, Nova Digital',
-    photo: null,
-    review:
-      "Arjun turns vague requirements into polished, working interfaces faster than anyone I've worked with. Communication is excellent throughout.",
-  },
-  {
-    name: 'Daniel Cho',
-    position: 'Founder, Brightloop Studio',
-    photo: null,
-    review:
-      'The attention to detail on animation and responsiveness is rare. Our clients noticed the difference immediately.',
-  },
-  {
-    name: 'Meera Khan',
-    position: 'CTO, Pixel Forge',
-    photo: null,
-    review:
-      'Reliable, communicative, and genuinely invested in the product — not just the ticket in front of them.',
-  },
-  {
-    name: 'James Ortiz',
-    position: 'Engineering Lead, Foundry',
-    photo: null,
-    review:
-      'Our component library is cleaner and more consistent thanks to the system Arjun designed and documented.',
-  },
-]
 
 export const certificates = [
   { title: 'Meta Front-End Developer', issuer: 'Meta (Coursera)', year: '2023', image: null },
@@ -224,6 +194,5 @@ export const navLinks = [
   { name: 'Skills', to: 'skills' },
   { name: 'Services', to: 'services' },
   { name: 'Projects', to: 'projects' },
-  { name: 'Testimonials', to: 'testimonials' },
   { name: 'Contact', to: 'contact' },
 ]

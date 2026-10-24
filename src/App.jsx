@@ -16,7 +16,6 @@ import Services from './sections/Services'
 import Projects from './sections/Projects'
 import Education from './sections/Education'
 import Achievements from './sections/Achievements'
-import Testimonials from './sections/Testimonials'
 import Certificates from './sections/Certificates'
 import TechStack from './sections/TechStack'
 import Contact from './sections/Contact'
@@ -49,7 +48,6 @@ export default function App() {
         <Projects />
         <Education />
         <Achievements />
-        <Testimonials /> 
         <Certificates />
         <TechStack />
         <Contact />
