@@ -16,7 +16,7 @@ export const personal = {
   email: 'muhammadbilalkhan1120@gmail.com',
   phone: '+92 3111300393',
   location: 'Karachi, Pakistan',
-  avatar: null, // add a real image path here, e.g. '/avatar.jpg'
+  avatar: "/bilal.jpeg",
   socials: [
     { name: 'GitHub', href: 'https://github.com/your-username', icon: 'FiGithub' },
     { name: 'LinkedIn', href: 'https://linkedin.com/in/your-username', icon: 'FiLinkedin' },
