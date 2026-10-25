@@ -87,7 +87,7 @@ export const services = [
   },
 ]
 
-export const projectCategories = ['All', 'Frontend', 'React', 'Full Stack']
+export const projectCategories = ['All', 'Frontend','Full Stack']
 
 export const projects = [
   {
