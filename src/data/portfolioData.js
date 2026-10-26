@@ -177,10 +177,6 @@ export const education = [
 export const certificates = [
   { title: 'Meta Front-End Developer', issuer: 'Meta (Coursera)', year: '2023', image: null },
   { title: 'JavaScript Algorithms & Data Structures', issuer: 'freeCodeCamp', year: '2022', image: null },
-  { title: 'React — The Complete Guide', issuer: 'Udemy', year: '2022', image: null },
-  { title: 'Node.js Developer Certification', issuer: 'OpenJS Foundation', year: '2023', image: null },
-  { title: 'UI/UX Design Fundamentals', issuer: 'Google (Coursera)', year: '2023', image: null },
-  { title: 'MongoDB Associate Developer', issuer: 'MongoDB University', year: '2024', image: null },
 ]
 
 export const techStack = [
