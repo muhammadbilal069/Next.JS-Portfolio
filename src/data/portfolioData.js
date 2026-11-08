@@ -114,14 +114,14 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Orbit — Team Workspace',
+    title: 'Stepora',
     description:
-      'A full-stack collaboration tool with real-time chat, kanban boards, and file sharing.',
+       'A responsive shoe e-commerce website featuring Firebase Authentication, Firestore Database, Shopping Cart, and an Admin Dashboard with product CRUD functionality.',
     image: null,
-    tags: ['React', 'Node.js', 'MongoDB'],
+    tags: ['HTML', 'CSS', 'JavaScript', 'Firebase', 'Firestore'],
     category: 'Full Stack',
-    live: 'https://example.com',
-    github: 'https://github.com/',
+    live: 'https://stepora-store.vercel.app/',
+    github: 'https://github.com/muhammadbilal069/stepora-store',
   },
   {
     id: 4,
