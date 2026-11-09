@@ -67,7 +67,7 @@ export default function Navbar() {
           offset={-80}
           className="btn-primary hidden lg:inline-flex !py-2.5 !px-6 text-sm cursor-pointer"
         >
-          Let's Talk
+          Get In Touch
         </ScrollLink>
 
         {/* Mobile toggle */}
