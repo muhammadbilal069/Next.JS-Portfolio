@@ -98,8 +98,8 @@ export const projects = [
     image: null,
     tags: ['React', 'JavaScript', 'CSS', 'Node.js', 'Express', 'MongoDB', 'REST API'],
     category: 'Full Stack',
-    live: 'https://example.com',
-    github: 'https://github.com/',
+    live: 'https://shop-co-omega-taupe.vercel.app/',
+    github: 'https://github.com/muhammadbilal069/Shop.co',
   },
   {
     id: 2,
@@ -120,8 +120,8 @@ export const projects = [
     image: null,
     tags: ['React.js', 'JavaScript', 'CSS', 'React Router', 'Local Storage'],
     category: 'Frontend',
-    live: 'https://example.com',
-    github: 'https://github.com/',
+    live: 'https://taskflow-dev-069.vercel.app/',
+    github: 'https://github.com/muhammadbilal069/TaskFlow',
   },
   {
     id: 4,
@@ -131,8 +131,8 @@ export const projects = [
     image: null,
     tags: ['HTML5', 'Bootstrap', 'CSS', 'JavaScript', 'Responsive Design'],
     category: 'Frontend',
-    live: 'https://example.com',
-    github: 'https://github.com/',
+    live: 'https://muhammadbilal069.github.io/movebuddy/',
+    github: 'https://github.com/muhammadbilal069/movebuddy',
   },
   
 ]
