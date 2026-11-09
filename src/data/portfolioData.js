@@ -92,28 +92,17 @@ export const projectCategories = ['All', 'Frontend','Full Stack']
 export const projects = [
   {
     id: 1,
-    title: 'Nimbus Analytics',
+    title: 'SHOP.CO',
     description:
-      'A real-time analytics dashboard with live charts, custom filters, and role-based access control.',
+       'A full-stack e-commerce website built from a Figma design, featuring a responsive React interface, Node.js and Express.js REST APIs, product browsing, product details, and shopping cart functionality.',
     image: null,
-    tags: ['React', 'Redux', 'Chart.js'],
-    category: 'React',
+    tags: ['React', 'JavaScript', 'CSS', 'Node.js', 'Express', 'MongoDB', 'REST API'],
+    category: 'Full Stack',
     live: 'https://example.com',
     github: 'https://github.com/',
   },
   {
     id: 2,
-    title: 'Marketing Site — Lumen',
-    description:
-      'A conversion-focused marketing site with scroll-triggered animation and a 98 Lighthouse score.',
-    image: null,
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    category: 'Frontend',
-    live: 'https://example.com',
-    github: 'https://github.com/',
-  },
-  {
-    id: 3,
     title: 'Stepora',
     description:
        'A responsive shoe e-commerce website featuring Firebase Authentication, Firestore Database, Shopping Cart, and an Admin Dashboard with product CRUD functionality.',
@@ -124,38 +113,28 @@ export const projects = [
     github: 'https://github.com/muhammadbilal069/stepora-store',
   },
   {
-    id: 4,
-    title: 'Pulse — Fitness Tracker',
-    description:
-      'A mobile-first tracker with animated progress rings and offline-first data sync.',
+    id: 3,
+    title: 'TaskFlow',
+     description:
+       'A React-based task management application featuring a dashboard, task organization, progress tracking, and local storage for data persistence.',
     image: null,
-    tags: ['React', 'PWA', 'IndexedDB'],
-    category: 'React',
-    live: 'https://example.com',
-    github: 'https://github.com/',
-  },
-  {
-    id: 5,
-    title: 'Foundry — Component Library',
-    description:
-      'A themeable design-system component library used across four internal products.',
-    image: null,
-    tags: ['React', 'Storybook', 'Tailwind'],
+    tags: ['React.js', 'JavaScript', 'CSS', 'React Router', 'Local Storage'],
     category: 'Frontend',
     live: 'https://example.com',
     github: 'https://github.com/',
   },
   {
-    id: 6,
-    title: 'Marketplace API + Storefront',
+    id: 4,
+    title: 'MoveBuddy',
     description:
-      'A two-sided marketplace with Stripe payments, seller dashboards, and search.',
+      'A feature-rich movie discovery web application built with HTML5, Bootstrap, and Custom CSS, featuring responsive layouts and interactive media overviews.',
     image: null,
-    tags: ['Node.js', 'Express', 'MongoDB', 'React'],
-    category: 'Full Stack',
+    tags: ['HTML5', 'Bootstrap', 'CSS', 'JavaScript', 'Responsive Design'],
+    category: 'Frontend',
     live: 'https://example.com',
     github: 'https://github.com/',
   },
+  
 ]
 
 export const education = [
