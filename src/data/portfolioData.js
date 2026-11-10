@@ -12,7 +12,7 @@ export const personal = {
   ],
   intro:
     "I'm a Full-Stack Developer focused on building modern, responsive, and user-friendly web applications. Using React.js, Next.js, Node.js, Express.js, and MongoDB, I turn ideas into functional digital experiences with clean code, intuitive design, and reliable performance.",
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Muhammad_Bilal_Khan_Resume.pdf',
   email: 'muhammadbilalkhan1120@gmail.com',
   phone: '+92 3111300393',
   location: 'Karachi, Pakistan',
