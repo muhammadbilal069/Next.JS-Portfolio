@@ -95,7 +95,7 @@ export const projects = [
     title: 'SHOP.CO',
     description:
        'A full-stack e-commerce website built from a Figma design, featuring a responsive React interface, Node.js and Express.js REST APIs, product browsing, product details, and shopping cart functionality.',
-    image: null,
+    image: './SHOP.CO.png',
     tags: ['React', 'JavaScript', 'CSS', 'Node.js', 'Express', 'MongoDB', 'REST API'],
     category: 'Full Stack',
     live: 'https://shop-co-omega-taupe.vercel.app/',
@@ -106,7 +106,7 @@ export const projects = [
     title: 'Stepora',
     description:
        'A responsive shoe e-commerce website featuring Firebase Authentication, Firestore Database, Shopping Cart, and an Admin Dashboard with product CRUD functionality.',
-    image: null,
+    image: './Stepora.png',
     tags: ['HTML', 'CSS', 'JavaScript', 'Firebase', 'Firestore'],
     category: 'Full Stack',
     live: 'https://stepora-store.vercel.app/',
@@ -117,7 +117,7 @@ export const projects = [
     title: 'TaskFlow',
      description:
        'A React-based task management application featuring a dashboard, task organization, progress tracking, and local storage for data persistence.',
-    image: null,
+    image: './Taskflow.png',
     tags: ['React.js', 'JavaScript', 'CSS', 'React Router', 'Local Storage'],
     category: 'Frontend',
     live: 'https://taskflow-dev-069.vercel.app/',
@@ -128,7 +128,7 @@ export const projects = [
     title: 'MoveBuddy',
     description:
       'A feature-rich movie discovery web application built with HTML5, Bootstrap, and Custom CSS, featuring responsive layouts and interactive media overviews.',
-    image: null,
+    image: './MoveBuddy.png',
     tags: ['HTML5', 'Bootstrap', 'CSS', 'JavaScript', 'Responsive Design'],
     category: 'Frontend',
     live: 'https://muhammadbilal069.github.io/movebuddy/',

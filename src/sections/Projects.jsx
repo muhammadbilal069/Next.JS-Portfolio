@@ -25,7 +25,7 @@ function ProjectCard({ project }) {
               src={project.image}
               alt={project.title}
               loading="lazy"
-              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+              className="h-full w-full object-contain bg-black/40 transition-transform duration-700 group-hover:scale-105"
             />
           ) : (
             <div className="flex h-full w-full items-center justify-center text-5xl text-white/30 transition-transform duration-700 group-hover:scale-110">
@@ -99,11 +99,10 @@ export default function Projects() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`relative rounded-full px-5 py-2 text-sm font-medium transition-colors duration-300 ${
-                activeCategory === cat
+              className={`relative rounded-full px-5 py-2 text-sm font-medium transition-colors duration-300 ${activeCategory === cat
                   ? 'text-white'
                   : 'glass text-white/60 hover:text-white'
-              }`}
+                }`}
             >
               {activeCategory === cat && (
                 <motion.span
