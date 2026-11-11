@@ -19,13 +19,14 @@ function ProjectCard({ project }) {
       <div className="absolute inset-0 rounded-2xl bg-grad-full opacity-0 blur-[2px] transition-opacity duration-500 group-hover:opacity-100" />
       <div className="relative flex h-full flex-col overflow-hidden rounded-2xl glass">
         {/* Image / placeholder */}
-        <div className="relative h-48 overflow-hidden bg-gradient-to-br from-primary/30 via-secondary/20 to-accent/20">
+        {/* Image / placeholder */}
+        <div className="relative h-48 w-full overflow-hidden bg-black">
           {project.image ? (
             <img
               src={project.image}
               alt={project.title}
               loading="lazy"
-              className="h-full w-full object-contain bg-black/40 transition-transform duration-700 group-hover:scale-105"
+              className="h-full w-full object-fill transition-transform duration-700 group-hover:scale-105"
             />
           ) : (
             <div className="flex h-full w-full items-center justify-center text-5xl text-white/30 transition-transform duration-700 group-hover:scale-110">
