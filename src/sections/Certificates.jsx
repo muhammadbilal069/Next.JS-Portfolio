@@ -16,7 +16,7 @@ export default function Certificates() {
           subtitle="Courses and certifications completed along the way."
         />
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2 max-w-4xl mx-auto">
           {certificates.map((cert, i) => (
             <motion.button
               key={cert.title}
